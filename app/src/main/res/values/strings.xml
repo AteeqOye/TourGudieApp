@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Tour Gudie App</string>
+
+    <!--  Title for the application. [CHAR LIMIT=12]  -->
+    <!--  Category name for phrases [CHAR LIMIT=20]  -->
+    <string name="category_economy">Economy</string>
+    <!--  Category name for the vocabulary words for colors [CHAR LIMIT=20]  -->
+    <string name="category_demographics">Demographics</string>
+    <!--  Category name for the vocabulary words for numbers [CHAR LIMIT=20]  -->
+    <string name="category_history">History</string>
+    <!--  Category name for the vocabulary words for family members [CHAR LIMIT=20]  -->
+    <string name="category_location">Location</string>
+    <!--  TODO: Remove or change this placeholder text  -->
+    <string name="category_health">Health</string>
+    <string name="category_education">Education</string>
+    <string name="category_Transportation">Transportation</string>
+    <string name="category_airbase">Air base</string>
+    <string name="category_Recreation">Recreation</string>
+    <string name="category_Sports">Sports</string>
+    <string name="Foodanddrink">Food and drink</string>
+
+</resources>

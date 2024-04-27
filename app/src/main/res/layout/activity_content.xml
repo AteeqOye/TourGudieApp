@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Content_Activity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/category_history">
+
+            <TextView
+                android:id="@+id/history"
+                android:onClick="historymsg"
+                style="@style/CategoryStyle"
+                android:background="?android:attr/selectableItemBackground"
+                android:text="@string/category_history" />
+        </FrameLayout>
+        <!--  Family category  -->
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/category_location">
+
+            <TextView
+                android:id="@+id/location"
+                android:onClick="locationmsg"
+                style="@style/CategoryStyle"
+                android:background="?android:attr/selectableItemBackground"
+                android:text="@string/category_location" />
+        </FrameLayout>
+        <!--  Colors category  -->
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/category_demographics">
+
+            <TextView
+                android:id="@+id/demographics"
+                style="@style/CategoryStyle"
+                android:onClick="demomsg"
+                android:background="?android:attr/selectableItemBackground"
+                android:text="@string/category_demographics" />
+        </FrameLayout>
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/category_economy">
+
+            <TextView
+                android:id="@+id/economy"
+                style="@style/CategoryStyle"
+                android:onClick="econmymsg"
+                android:background="?android:attr/selectableItemBackground"
+                android:text="@string/category_economy" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/category_health">
+
+            <TextView
+                android:id="@+id/health"
+                style="@style/CategoryStyle"
+                android:onClick="healthmsg"
+                android:background="?android:attr/selectableItemBackground"
+                android:text="@string/category_health" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/category_education">
+
+            <TextView
+                android:id="@+id/education"
+                style="@style/CategoryStyle"
+                android:onClick="educationmsg"
+                android:background="?android:attr/selectableItemBackground"
+                android:text="@string/category_education" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/category_transportation">
+
+            <TextView
+                android:id="@+id/transportation"
+                style="@style/CategoryStyle"
+                android:onClick="transportationm"
+                android:background="?android:attr/selectableItemBackground"
+                android:text="@string/category_Transportation" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/category_airbase">
+
+            <TextView
+                android:id="@+id/airbase"
+                style="@style/CategoryStyle"
+                android:onClick="airbase"
+                android:background="?android:attr/selectableItemBackground"
+                android:text="@string/category_airbase" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/category_recreation">
+
+            <TextView
+                android:id="@+id/recreation"
+                style="@style/CategoryStyle"
+                android:onClick="receationmsg"
+                android:background="?android:attr/selectableItemBackground"
+                android:text="@string/category_Recreation" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/category_sports">
+
+            <TextView
+                android:id="@+id/sports"
+                style="@style/CategoryStyle"
+                android:onClick="sportsmsg"
+                android:background="?android:attr/selectableItemBackground"
+                android:text="@string/category_Sports" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/fooddrink">
+
+            <TextView
+                android:id="@+id/food_drink"
+                android:onClick="fooddrinkmsg"
+                style="@style/CategoryStyle"
+                android:background="?android:attr/selectableItemBackground"
+                android:text="@string/Foodanddrink" />
+        </FrameLayout>
+
+    </LinearLayout>
+</ScrollView>

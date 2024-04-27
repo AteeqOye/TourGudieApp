@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.tourgudieapp">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/tourguideapp"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.TourGudieApp">
+        <activity
+            android:name=".FoodDrink_Activity"
+            android:label="Food and Drink"
+            android:parentActivityName=".Content_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Sports_Activity"
+            android:exported="false"
+            android:label="Sports"
+            android:parentActivityName=".Content_Activity" />
+        <activity
+            android:name=".Recreation_Activity"
+            android:exported="false"
+            android:label="Recreation"
+            android:parentActivityName=".Content_Activity" />
+        <activity
+            android:name=".AirBase_Activity"
+            android:exported="false"
+            android:label="Air Base"
+            android:parentActivityName=".Content_Activity" />
+        <activity
+            android:name=".Transportation_Activity"
+            android:exported="false"
+            android:label="Transportation"
+            android:parentActivityName=".Content_Activity" />
+        <activity
+            android:name=".Education_Activity"
+            android:exported="false"
+            android:label="Educaton"
+            android:parentActivityName=".Content_Activity" />
+        <activity
+            android:name=".Health_Activity"
+            android:exported="false"
+            android:label="Health"
+            android:parentActivityName=".Content_Activity" />
+        <activity
+            android:name=".Economy_Activity"
+            android:exported="false"
+            android:label="Economy"
+            android:parentActivityName=".Content_Activity" />
+        <activity
+            android:name=".Demographics_Activity"
+            android:exported="false"
+            android:label="Demographics"
+            android:parentActivityName=".Content_Activity" />
+        <activity
+            android:name=".Location_Activity"
+            android:exported="false"
+            android:label="Location"
+            android:parentActivityName=".Content_Activity" />
+        <activity
+            android:name=".HistoryActivity"
+            android:exported="false"
+            android:label="History"
+            android:parentActivityName=".Content_Activity" />
+        <activity
+            android:name=".Content_Activity"
+            android:exported="false"
+            android:label="Contents" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
